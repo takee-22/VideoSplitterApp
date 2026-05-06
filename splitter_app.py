@@ -50,7 +50,7 @@ def safe_basename(path: str) -> str:
 class VideoSplitterApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("FFmpeg Video Splitter")
+        self.setWindowTitle("Professional Video Splitter v1.1")
         self.resize(1000, 700)
 
         self.video_path = ""
@@ -135,6 +135,7 @@ class VideoSplitterApp(QWidget):
         grid.addWidget(browse_output_btn, 1, 2)
 
         self.split_btn = QPushButton("Split Video Into 2 Parts")
+        self.split_btn.setToolTip("Click to split the video at the selected time into two separate files.")
         self.split_btn.clicked.connect(self.split_video)
         grid.addWidget(self.split_btn, 2, 0, 1, 3)
 
