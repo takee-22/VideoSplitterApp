@@ -9,7 +9,7 @@ env/
 
 # Build folders (IGNORE these)
 build/
-*.spec
+# *.spec
 
 dist/
 # IDE
