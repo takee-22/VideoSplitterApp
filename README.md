@@ -1,2 +1,13 @@
 # VideoSplitterApp
-FFmpeg Video Splitter is a PyQt5 desktop app for fast video preview and splitting. It uses OpenCV for playback and FFmpeg for lossless processing. Users can scrub a timeline, set precise cut points, and instantly export two video parts with a simple, CapCut-like interface for quick editing.
+FFmpeg Video Splitter is a desktop app for fast video preview and splitting. It uses OpenCV for playback and FFmpeg for lossless processing.
+
+## Current Features (v1)
+- Fast video playback and scrubbing.
+- Precise cut point selection.
+- Lossless splitting into two parts.
+
+## Upcoming Features (v2 - In Progress)
+- Migration to **PyQt6**.
+- **Modern Dark Theme** with premium aesthetics.
+- **Multiple Cut Points**: Support for batch splitting into multiple segments.
+- Enhanced timeline visualization.
